@@ -1,0 +1,128 @@
+html,body{
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 30px;  
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: 150px;
+    border: 0px solid red;
+}
+footer{
+    float: left;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(246, 250, 253);
+    border: 0px solid orange;
+    font-size: 25px;
+}
+
+#main{
+    float: left;
+    position: relative;
+    width: 100%;
+    border: 0px solid blue;
+    background-color: rgb(251, 251, 246);
+
+}
+#side{
+    background-color: rgb(235, 235, 235);
+    float: left;
+    width: 150px;
+    height: 1400px;
+    border: 0px solid green;
+}
+#maintxt{
+    position: absolute;
+    width: 450px;
+    top: 180px;
+    left: 1200px;
+    font-size:30px ;
+    font-weight: 700;
+    z-index: 2;
+    border: 1px solid rgb(101, 0, 101);
+    text-align: center;
+}
+#txtex{
+    position: absolute;
+    width: 550px;
+    top: 260px;
+    left: 1150px;
+    line-height: 50px;
+    text-align: center;
+}
+#mainimg{
+    width: 750px;
+    height: 548px;
+    position: absolute;
+    top: 100px;
+    left: 380px;
+    z-index: 1;
+    border: 0px solid brown;
+   }
+   nav{
+    width: 150px;
+    position: absolute;
+    top: 60px;
+    border:0px solid red;
+    
+}
+#sideul{
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+    border:0px solid red;
+}
+ul{
+    list-style: none;
+    
+}
+li{
+    font-size: 30px;
+    width: 150px;
+    height: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border:0px solid red;
+}
+header img{
+    width: 100%;
+    height:150px;
+}
+#mainimg img{
+    width: 100%;
+    height:500px
+}
+li a:hover{
+    text-decoration: none;
+    color: gray;
+}
+#text{
+    position: absolute;
+top: 60px;
+left: 900px;
+width: 300px;
+text-align: center;
+opacity: 80%;
+background-color: white;
+border-radius: 5px;
+}
+#logo{
+    margin-top: 10px;
+    position: absolute;
+    left: 800px;
+    width: 300px;
+}
+#btn{
+    position: absolute;
+    top:1350px;
+    left: 1650px;
+    border: 1px solid skyblue;
+    background-color: white;
+    border-radius: 5px;
+}
+#btn:hover{
+    background-color: skyblue;
+    color: white;
+}
