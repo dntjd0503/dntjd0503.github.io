@@ -41,7 +41,7 @@ footer{
     font-size:30px ;
     font-weight: 700;
     z-index: 2;
-    border: 1px solid rgb(101, 0, 101);
+    border: 0px solid rgb(101, 0, 101);
     text-align: center;
 }
 #txtex{
