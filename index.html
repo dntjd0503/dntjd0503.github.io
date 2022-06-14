@@ -8,8 +8,22 @@
     <meta charset="UTF-8">
     <title>Happy Jeju, Travel to Jeju</title>
     <style>
-    #mainimg:hover{
-        opacity:80%;
+        @keyframes textani{
+            from{
+                color: rgb(251, 251, 246);
+            }
+            to{
+                color: black;
+            }
+        }
+    
+    #ar:hover #maintxt{
+        animation-name: textani;
+        animation-duration: 4s;
+    }        
+    #ar:hover #txtex{
+        animation-name: textani;
+        animation-duration: 4s;
     }
         #sub1 img:hover{
         opacity:80%;
@@ -69,18 +83,21 @@
                 </ul>
             </nav>
         </div>
-        <div id="maintxt">ARTE MUSEUM JEJU</div>
-        <div id="txtex">
-        아르떼뮤지엄 제주는 디스트릭트가 2020년 9월말<br>
-        제주 애월에서 선보인 첫 번째 몰입형 미디어아트 전시관입니다<br>
-        섬을 컨셉으로 빛과 소리로 만들어진 11개의 다채로운 <br>
-        미디어아트 전시가 펼쳐집니다<br>
-        모든 감각의 긴장을 잠시 내려놓고 아르떼 뮤지엄 제주가 선사하는<br>
-        영원한 자연의 공간 속으로 입장해보세요    
-        </div>
-        <div id="mainimg">
+        <div id="ar">
+            <div id="mainimg">
             <a href="/index4.html"><img src="/arte.jpg" alt="아르떼"> </a>
+            </div>
+            <div id="maintxt">ARTE MUSEUM JEJU</div>
+            <div id="txtex">
+            아르떼뮤지엄 제주는 디스트릭트가 2020년 9월말<br>
+            제주 애월에서 선보인 첫 번째 몰입형 미디어아트 전시관입니다<br>
+            섬을 컨셉으로 빛과 소리로 만들어진 11개의 다채로운 <br>
+            미디어아트 전시가 펼쳐집니다<br>
+            모든 감각의 긴장을 잠시 내려놓고 아르떼 뮤지엄 제주가 선사하는<br>
+            영원한 자연의 공간 속으로 입장해보세요    
+            </div>
         </div>
+        
         <div id="sub1">
             <a href="/index3.html"><img src="/oreum.jpeg"></a>
         </div>
