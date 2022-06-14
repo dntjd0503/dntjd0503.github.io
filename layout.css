@@ -108,6 +108,9 @@ opacity: 80%;
 background-color: white;
 border-radius: 5px;
 }
+#text:hover{
+    background-color:gray;
+}
 #logo{
     margin-top: 10px;
     position: absolute;
